@@ -34,7 +34,6 @@ vector<int> two_sum(vector<int> array, int target) {
     return indices;
 }
 
-
 int main() {
     vector<int> array = {2, 7, 11, 15};
     int target = 9;
