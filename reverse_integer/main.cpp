@@ -26,7 +26,7 @@ using namespace std;
  Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
  */
 int reverse_int(int integer) {
-    int rev_int = 0;
+    long rev_int = 0;
     bool is_positive = true;
     int quotient = integer, remainder = 0;
     if (integer < 0) {
@@ -38,9 +38,12 @@ int reverse_int(int integer) {
         rev_int = rev_int * 10 + remainder;
         quotient /=  10;
     }
-    return (is_positive ? rev_int : (-1 * rev_int));
+    if (rev_int < INT_MIN || rev_int > INT_MAX) {
+        return 0;
+    }
+    return (is_positive ? (int) rev_int : (-1 * (int) rev_int));
 }
 int main() {
-    cout << reverse_int(-120) << endl;
+    cout << reverse_int(1534236469) << endl;
     return 0;
 }
