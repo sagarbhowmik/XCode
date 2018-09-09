@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A6455F72140EE9D00F11BDE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6455F62140EE9D00F11BDE /* main.cpp */; };
 		1AB4C9162144F5F8006EC4E8 /* reverse_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4C9152144F5F8006EC4E8 /* reverse_string.cpp */; };
 		1AB4C9232144F675006EC4E8 /* prime_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4C9222144F675006EC4E8 /* prime_number.cpp */; };
 /* End PBXBuildFile section */
@@ -44,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		1A6455F32140EE9D00F11BDE /* home */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = home; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A6455F62140EE9D00F11BDE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1AB4C90E2144F5EE006EC4E8 /* reverse_string */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = reverse_string; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB4C9152144F5F8006EC4E8 /* reverse_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reverse_string.cpp; path = /Users/sagarbhowmik/XCode/reverse_string/reverse_string.cpp; sourceTree = "<absolute>"; };
 		1AB4C91B2144F668006EC4E8 /* prime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prime; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +77,6 @@
 		1A6455EA2140EE9D00F11BDE = {
 			isa = PBXGroup;
 			children = (
-				1A6455F52140EE9D00F11BDE /* home */,
 				1AB4C90F2144F5EE006EC4E8 /* reverse_string */,
 				1AB4C91C2144F668006EC4E8 /* prime */,
 				1A6455F42140EE9D00F11BDE /* Products */,
@@ -94,14 +91,6 @@
 				1AB4C91B2144F668006EC4E8 /* prime */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1A6455F52140EE9D00F11BDE /* home */ = {
-			isa = PBXGroup;
-			children = (
-				1A6455F62140EE9D00F11BDE /* main.cpp */,
-			);
-			path = home;
 			sourceTree = "<group>";
 		};
 		1AB4C90F2144F5EE006EC4E8 /* reverse_string */ = {
@@ -218,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A6455F72140EE9D00F11BDE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
