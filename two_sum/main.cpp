@@ -35,7 +35,7 @@ vector<int> two_sum(vector<int> array, int target) {
 }
 
 
-int main(int argc, const char * argv[]) {
+int main() {
     vector<int> array = {2, 7, 11, 15};
     int target = 9;
     vector<int> ret_array;
